@@ -61,12 +61,8 @@ MODEL GRAPH
 
 DESIGN:
 
-Inverting amplifier:
+<img width="1342" height="1600" alt="image" src="https://github.com/user-attachments/assets/4bde3ba5-e224-46cb-916e-12e08e8379e7" />
 
-A = -Rf/R1
-Take  A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,19 +78,16 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
- 
+<img width="1600" height="753" alt="image" src="https://github.com/user-attachments/assets/403f95fa-39d2-437c-8978-136deedc06b6" />
+		
+## CALCULATION
 
+<img width="912" height="1416" alt="image" src="https://github.com/user-attachments/assets/3186b52d-0d8e-4efa-8ade-86c54a2d1fb1" />
 
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+<img width="914" height="1544" alt="image" src="https://github.com/user-attachments/assets/a4cf03a0-b319-4675-8cc0-4ba8abed72d6" />
 
----
 ### **Non-Inverting Amplifier**
 
 If the signal is applied to the non-inverting input terminal without inversion, it is called a **non-inverting amplifier**.  
@@ -118,6 +111,7 @@ ACL = 1 + RF/R1
 <img width="456" height="340" alt="image" src="https://github.com/user-attachments/assets/00c7aaec-b4d8-414e-afa3-e985eb3dd902" />
 
 ---
+
 PROCEDURE:
 ### **For  Non-Inverting Amplifier**
 1. Select R1  as a constant value and choose a value for Rf .  
@@ -130,15 +124,17 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+<img width="1600" height="718" alt="image" src="https://github.com/user-attachments/assets/6e2139c2-28da-4bf3-ba8c-7422eb9f641d" />
 
 ---
+## CALCULATION
+
+<img width="916" height="1338" alt="image" src="https://github.com/user-attachments/assets/956c3831-da58-4084-adc9-6c3b9fc483fc" />
+
+
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+<img width="916" height="1290" alt="image" src="https://github.com/user-attachments/assets/c745230a-2541-41ef-864a-3d5247fddaf4" />
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -156,8 +152,11 @@ A = Vo/{V2 - V1} = -Rf/R1
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
 
 ---
-
 ## DESIGN
+
+<img width="916" height="1548" alt="image" src="https://github.com/user-attachments/assets/e83a122a-b6cd-4376-8c2b-590c4d2a12ca" />
+
+
 
 
 ### **Differential Amplifier**
@@ -186,15 +185,17 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 ## TABULATION (Differential Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+<img width="1600" height="718" alt="image" src="https://github.com/user-attachments/assets/46ee12dd-6e0d-4887-82e4-b735237ca28d" />
+
 
 ---
+## CALCULATION
+
+![IC](https://github.com/user-attachments/assets/8ee97dc5-b23c-4fe6-9668-d3637d0ebdb5)
+
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+<img width="1254" height="1600" alt="image" src="https://github.com/user-attachments/assets/f430d3bf-306c-4ecc-ab95-47dbe50e67e0" />
 
 ---
 ## INSTRUMENTATION AMPLIFIER
@@ -211,6 +212,7 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
 
 <img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
 
+
 PROCEDURE:
 
 1.	Select the entire resistor with the same value. Let R be the gain varying resistor with different values of resistance for simplicity let R be a constant value.
@@ -225,14 +227,19 @@ PROCEDURE:
 
 ## TABULATION (Instrumentation Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![IC](https://github.com/user-attachments/assets/cd3c4089-2911-4295-bd16-9a95104a04ef)
+
 
 ---
+## CALCULATION
+
+<img width="718" height="1600" alt="image" src="https://github.com/user-attachments/assets/db4dc21f-cadb-4cc3-9275-311543dc75cd" />
+
+
+
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="910" height="1420" alt="image" src="https://github.com/user-attachments/assets/a44678e9-c721-4446-85d2-21c35b9aab63" />
 
 
 ---
