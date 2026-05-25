@@ -10,7 +10,7 @@ To design and construct an Inverting, Non-Inverting, Differential and Instrument
 ## APPARATUS REQUIRED
 
 | S.No | Name of the Apparatus | Range | Quantity |
-|------|------------------------|--------|-----------|
+|------|------------------------|--------|----------|
 | 1 | Function Generator | 3 MHz | 1 |
 | 2 | DSO | 30 MHz | 1 |
 | 3 | Dual RPS | (0 – 30) V | 1 |
